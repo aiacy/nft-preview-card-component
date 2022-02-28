@@ -14,10 +14,6 @@ body{
     height: 100vh;
 }
 
-main.container{
-
-}
-
 .card{
   background-color: hsl(216, 50%, 16%);
   width: 300px;
@@ -41,7 +37,8 @@ h1{
 
 p{
     font-size: 18px;
-    color: hsl(0, 0%, 100%);
+    color: hsl(215, 51%, 70%);
+    line-height: 2rem;
  
 }
 
@@ -52,7 +49,7 @@ p{
     padding-top: 1rem;
 }
 
-p.amount{
+.amount{
     color: hsl(178, 100%, 50%);
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -67,6 +64,7 @@ p.amount{
     height: fit-content;
     align-items: center;
     justify-items: start;
+    padding-top: .5rem;
 }
 
 .creator img{
@@ -76,7 +74,7 @@ p.amount{
 }
 
 hr{
-    margin: .5rem;
+   
 }
 
 .days, .creator p{
@@ -101,4 +99,9 @@ p.days{
 .description{
     font-weight: 300;
     padding-top: 1rem;
+}
+
+hr{
+    opacity: 20%;
+    border-top: 1px solid  hsl(215, 32%, 27%);;
 }
