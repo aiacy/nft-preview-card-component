@@ -96,7 +96,7 @@ p.days{
     align-items: center;
     justify-items: end;
 }
-.attribution { font-size: 11px; text-align: center; margin: 1rem; }
+.attribution p{ font-size: 11px; text-align: center; margin: 1rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .description{
